@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+    <h1 id="level-title">Press A Key to Start</h1>
+    
+    <div class="container">
+        <h1 class="boven" id="level-title">Ready ?</h1>
+
+        <div class="row">
+
+            <div type="button" onclick="clickMe('green')" id="green" class="btn green">
+
+            </div>
+
+            <div type="button" onclick="clickMe('red')" id="red" class="btn red">
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div type="button" onclick="clickMe('yellow')" id="yellow" class="btn yellow">
+
+            </div>
+            <div type="button" onclick="clickMe('blue')" id="blue" class="btn blue">
+
+            </div>
+
+        </div>
+        <h1 class="onder" id="level-title"></h1>
+    </div>
+
+    <div>
+
+
+        <button onclick="GameStart2();" id="myButton">start game for now to make it easier on task</button>
+
+        <p id="pi">test</p>
+    </div>
+    <footer>
+        Made with ❤️ in  Neerwinge.
+
+    </footer>
+
+    <script src="game.js"></script>
+
+
+</body>
+
+</html>
